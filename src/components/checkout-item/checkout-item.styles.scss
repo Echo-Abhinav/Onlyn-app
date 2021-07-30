@@ -16,10 +16,16 @@
       height: 100%;
     }
   }
-  .name,
-  .quantity,
+  .name{
+    width: 23%;
+  }
+  .quantity{
+    width: 23%;
+  }
+
   .price {
     width: 23%;
+    padding-inline-start: 5px;
   }
 
   .quantity {
