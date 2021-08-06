@@ -63,8 +63,8 @@ app.post("/payment", async (req, res) => {
       },
     ],
     mode: "payment",
-    success_url: "http://localhost:3000/checkout",
-    cancel_url: "http://localhost:3000/checkout",
+    success_url: "https://onlyn-app.herokuapp.com/checkout",
+    cancel_url: "https://onlyn-app.herokuapp.com/checkout",
   });
   res.redirect(303, session.url);
 });
