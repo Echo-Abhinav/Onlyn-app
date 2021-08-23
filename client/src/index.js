@@ -12,6 +12,8 @@ import {
 
 import { store, persistor } from "./redux/store";
 
+import * as serviceWorker from "./serviceWorker";
+
 import "./index.css";
 import App from "./App";
 
@@ -37,3 +39,5 @@ ReactDOM.render(
   </ApolloProvider>,
   document.getElementById("root")
 );
+
+serviceWorker.register();
