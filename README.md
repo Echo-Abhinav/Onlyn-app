@@ -1,7 +1,7 @@
 # Onlyn-app
 
 This is an online store website which uses React in the front-end and Redux for state management.
-In the backend we use Express, Firebase, Stripe for payments and Heroku for deployment.
+In the backend we use Express, GraphQL and Firebase for database, Stripe for payments and Heroku for deployment.
 
 Demo: https://onlyn-app.herokuapp.com/
 
